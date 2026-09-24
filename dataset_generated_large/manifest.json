@@ -1,0 +1,37 @@
+{
+  "artifact_format": "zip",
+  "classes": {
+    "benign": {
+      "count": 4,
+      "label": 0
+    },
+    "build_scripts": {
+      "count": 3,
+      "label": 1
+    },
+    "malformed": {
+      "count": 3,
+      "label": 1
+    },
+    "metadata_only": {
+      "count": 3,
+      "label": 0
+    },
+    "suspicious": {
+      "count": 4,
+      "label": 1
+    },
+    "traversal": {
+      "count": 3,
+      "label": 1
+    },
+    "typosquat": {
+      "count": 3,
+      "label": 0
+    }
+  },
+  "dataset_identifier": "generated-large-inert-package-dataset",
+  "dataset_version": "0.2.0",
+  "description": "Larger synthetic dataset for static-only evaluation of SupplyGuard.",
+  "notes": "All generated files are inert placeholders and never executed or imported."
+}

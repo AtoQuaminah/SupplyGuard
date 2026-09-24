@@ -1,0 +1,392 @@
+[
+  {
+    "class": "benign",
+    "dataset": "dataset_generated",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "demo_pkg.zip",
+    "score": 0,
+    "summary": "Scanned demo_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "benign",
+    "dataset": "dataset_generated",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "plain_project.zip",
+    "score": 0,
+    "summary": "Scanned plain_project.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "benign",
+    "dataset": "dataset_generated",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "safe_lib.zip",
+    "score": 0,
+    "summary": "Scanned safe_lib.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "build_scripts",
+    "dataset": "dataset_generated",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "build_risk_pkg.zip",
+    "score": 45,
+    "summary": "Scanned build_risk_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "build_scripts",
+    "dataset": "dataset_generated",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "install_risk_pkg.zip",
+    "score": 45,
+    "summary": "Scanned install_risk_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "malformed",
+    "dataset": "dataset_generated",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "broken_pkg.zip",
+    "score": 45,
+    "summary": "Scanned broken_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "malformed",
+    "dataset": "dataset_generated",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "invalid_syntax_pkg.zip",
+    "score": 45,
+    "summary": "Scanned invalid_syntax_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "metadata_only",
+    "dataset": "dataset_generated",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "info_pkg.zip",
+    "score": 0,
+    "summary": "Scanned info_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "metadata_only",
+    "dataset": "dataset_generated",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "meta_pkg.zip",
+    "score": 0,
+    "summary": "Scanned meta_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "suspicious",
+    "dataset": "dataset_generated",
+    "decision": "BLOCK",
+    "finding_count": 2,
+    "label": 1,
+    "sample": "commandy_pkg.zip",
+    "score": 80,
+    "summary": "Scanned commandy_pkg.zip with final decision BLOCK and score 80."
+  },
+  {
+    "class": "suspicious",
+    "dataset": "dataset_generated",
+    "decision": "BLOCK",
+    "finding_count": 2,
+    "label": 1,
+    "sample": "danger_like_pkg.zip",
+    "score": 80,
+    "summary": "Scanned danger_like_pkg.zip with final decision BLOCK and score 80."
+  },
+  {
+    "class": "suspicious",
+    "dataset": "dataset_generated",
+    "decision": "BLOCK",
+    "finding_count": 2,
+    "label": 1,
+    "sample": "spawn_demo.zip",
+    "score": 80,
+    "summary": "Scanned spawn_demo.zip with final decision BLOCK and score 80."
+  },
+  {
+    "class": "traversal",
+    "dataset": "dataset_generated",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 1,
+    "sample": "escape_pkg.zip",
+    "score": 0,
+    "summary": "Scanned escape_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "traversal",
+    "dataset": "dataset_generated",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 1,
+    "sample": "path_traversal_pkg.zip",
+    "score": 0,
+    "summary": "Scanned path_traversal_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "typosquat",
+    "dataset": "dataset_generated",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "numppy_pkg.zip",
+    "score": 0,
+    "summary": "Scanned numppy_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "typosquat",
+    "dataset": "dataset_generated",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "requesst_pkg.zip",
+    "score": 0,
+    "summary": "Scanned requesst_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "benign",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "alpha_pkg.zip",
+    "score": 0,
+    "summary": "Scanned alpha_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "benign",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "beta_pkg.zip",
+    "score": 0,
+    "summary": "Scanned beta_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "benign",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "delta_pkg.zip",
+    "score": 0,
+    "summary": "Scanned delta_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "benign",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "gamma_pkg.zip",
+    "score": 0,
+    "summary": "Scanned gamma_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "build_scripts",
+    "dataset": "dataset_generated_large",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "b_a_pkg.zip",
+    "score": 45,
+    "summary": "Scanned b_a_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "build_scripts",
+    "dataset": "dataset_generated_large",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "b_b_pkg.zip",
+    "score": 45,
+    "summary": "Scanned b_b_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "build_scripts",
+    "dataset": "dataset_generated_large",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "b_c_pkg.zip",
+    "score": 45,
+    "summary": "Scanned b_c_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "malformed",
+    "dataset": "dataset_generated_large",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "bad_a_pkg.zip",
+    "score": 45,
+    "summary": "Scanned bad_a_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "malformed",
+    "dataset": "dataset_generated_large",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "bad_b_pkg.zip",
+    "score": 45,
+    "summary": "Scanned bad_b_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "malformed",
+    "dataset": "dataset_generated_large",
+    "decision": "WARN",
+    "finding_count": 1,
+    "label": 1,
+    "sample": "bad_c_pkg.zip",
+    "score": 45,
+    "summary": "Scanned bad_c_pkg.zip with final decision WARN and score 45."
+  },
+  {
+    "class": "metadata_only",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "meta_a_pkg.zip",
+    "score": 0,
+    "summary": "Scanned meta_a_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "metadata_only",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "meta_b_pkg.zip",
+    "score": 0,
+    "summary": "Scanned meta_b_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "metadata_only",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "meta_c_pkg.zip",
+    "score": 0,
+    "summary": "Scanned meta_c_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "suspicious",
+    "dataset": "dataset_generated_large",
+    "decision": "BLOCK",
+    "finding_count": 2,
+    "label": 1,
+    "sample": "sus_a_pkg.zip",
+    "score": 80,
+    "summary": "Scanned sus_a_pkg.zip with final decision BLOCK and score 80."
+  },
+  {
+    "class": "suspicious",
+    "dataset": "dataset_generated_large",
+    "decision": "BLOCK",
+    "finding_count": 2,
+    "label": 1,
+    "sample": "sus_b_pkg.zip",
+    "score": 80,
+    "summary": "Scanned sus_b_pkg.zip with final decision BLOCK and score 80."
+  },
+  {
+    "class": "suspicious",
+    "dataset": "dataset_generated_large",
+    "decision": "BLOCK",
+    "finding_count": 2,
+    "label": 1,
+    "sample": "sus_c_pkg.zip",
+    "score": 80,
+    "summary": "Scanned sus_c_pkg.zip with final decision BLOCK and score 80."
+  },
+  {
+    "class": "suspicious",
+    "dataset": "dataset_generated_large",
+    "decision": "BLOCK",
+    "finding_count": 2,
+    "label": 1,
+    "sample": "sus_d_pkg.zip",
+    "score": 80,
+    "summary": "Scanned sus_d_pkg.zip with final decision BLOCK and score 80."
+  },
+  {
+    "class": "traversal",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 1,
+    "sample": "t_a_pkg.zip",
+    "score": 0,
+    "summary": "Scanned t_a_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "traversal",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 1,
+    "sample": "t_b_pkg.zip",
+    "score": 0,
+    "summary": "Scanned t_b_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "traversal",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 1,
+    "sample": "t_c_pkg.zip",
+    "score": 0,
+    "summary": "Scanned t_c_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "typosquat",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "djanog_pkg.zip",
+    "score": 0,
+    "summary": "Scanned djanog_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "typosquat",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "numpyy_pkg.zip",
+    "score": 0,
+    "summary": "Scanned numpyy_pkg.zip with final decision ALLOW and score 0."
+  },
+  {
+    "class": "typosquat",
+    "dataset": "dataset_generated_large",
+    "decision": "ALLOW",
+    "finding_count": 0,
+    "label": 0,
+    "sample": "reqeusts_pkg.zip",
+    "score": 0,
+    "summary": "Scanned reqeusts_pkg.zip with final decision ALLOW and score 0."
+  }
+]

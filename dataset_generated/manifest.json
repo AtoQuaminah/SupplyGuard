@@ -1,0 +1,37 @@
+{
+  "artifact_format": "zip",
+  "classes": {
+    "benign": {
+      "count": 3,
+      "label": 0
+    },
+    "build_scripts": {
+      "count": 2,
+      "label": 1
+    },
+    "malformed": {
+      "count": 2,
+      "label": 1
+    },
+    "metadata_only": {
+      "count": 2,
+      "label": 0
+    },
+    "suspicious": {
+      "count": 3,
+      "label": 1
+    },
+    "traversal": {
+      "count": 2,
+      "label": 1
+    },
+    "typosquat": {
+      "count": 2,
+      "label": 0
+    }
+  },
+  "dataset_identifier": "generated-inert-package-dataset",
+  "dataset_version": "0.1.0",
+  "description": "Synthetic inert dataset for static scanner evaluation. All files are data only and are never executed.",
+  "notes": "All artifacts are intentionally inert and designed to be scanned statically without imports or execution."
+}

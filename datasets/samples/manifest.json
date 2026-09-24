@@ -1,0 +1,18 @@
+{
+  "dataset_version": "0.1.0",
+  "identifier": "supplyguard-reference-dataset",
+  "description": "Minimal inert dataset for scanner validation; files are never imported or executed.",
+  "classes": {
+    "benign": {
+      "path": "benign",
+      "label": 0,
+      "notes": "Expected to be low risk or allow"
+    },
+    "suspicious": {
+      "path": "suspicious",
+      "label": 1,
+      "notes": "Expected to contain suspicious execution calls"
+    }
+  },
+  "artifact_format": "zip"
+}
