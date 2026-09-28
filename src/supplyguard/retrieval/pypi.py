@@ -21,8 +21,15 @@ def get_package_artifact(package_name: str, destination: str | None = None) -> t
         raise RetrievalError(f"PyPI unavailable: {exc}") from exc
 
     releases = payload.get("releases", {})
+    latest_version = payload.get("info", {}).get("version")
+    version_names = [latest_version] if latest_version in releases else []
+    version_names.extend(
+        version_name
+        for version_name in sorted(releases, key=lambda item: item, reverse=True)
+        if version_name not in version_names
+    )
     selected = None
-    for version_name in sorted(releases, key=lambda item: item, reverse=True):
+    for version_name in version_names:
         for file_info in releases.get(version_name, []):
             if file_info.get("packagetype") in {"sdist", "bdist_wheel"}:
                 selected = file_info
